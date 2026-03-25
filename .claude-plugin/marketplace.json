@@ -1,5 +1,5 @@
 {
-  "name": "cckit-marketplace",
+  "name": "cckit",
   "owner": {
     "name": "juho0719"
   },
@@ -31,7 +31,7 @@
       "tags": ["presentation", "slides", "html", "offline"]
     },
     {
-      "name": "behavioral-guidelines",
+      "name": "behavioral-guidelines(CLAUDE.md)",
       "source": "./plugins/behavioral-guidelines",
       "description": "LLM coding best practices - think before coding, simplicity, surgical changes, goal-driven execution.",
       "category": "rules",
