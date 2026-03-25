@@ -1,0 +1,9 @@
+{
+  "name": "cloudflare-mcps",
+  "version": "1.0.0",
+  "description": "Cloudflare MCP servers - docs, Workers builds, bindings, and observability",
+  "author": {
+    "name": "juho0719"
+  },
+  "keywords": ["cloudflare", "workers", "docs", "observability"]
+}

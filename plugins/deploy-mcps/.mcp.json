@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "vercel": {
+      "type": "http",
+      "url": "https://mcp.vercel.com"
+    },
+    "railway": {
+      "command": "npx",
+      "args": ["-y", "@railway/mcp-server"]
+    },
+    "supabase": {
+      "command": "npx",
+      "args": ["-y", "@supabase/mcp-server-supabase@latest", "--project-ref=${SUPABASE_PROJECT_REF}"]
+    }
+  }
+}

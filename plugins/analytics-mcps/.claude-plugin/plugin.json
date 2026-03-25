@@ -1,0 +1,9 @@
+{
+  "name": "analytics-mcps",
+  "version": "1.0.0",
+  "description": "Analytics MCP servers - ClickHouse for analytics queries",
+  "author": {
+    "name": "juho0719"
+  },
+  "keywords": ["clickhouse", "analytics", "data"]
+}

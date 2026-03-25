@@ -1,0 +1,9 @@
+{
+  "name": "plan-viewer",
+  "version": "1.0.0",
+  "description": "Browser-based visual viewer for architecture and planning phases",
+  "author": {
+    "name": "juho0719"
+  },
+  "keywords": ["architecture", "planning", "visual", "browser", "diagrams"]
+}

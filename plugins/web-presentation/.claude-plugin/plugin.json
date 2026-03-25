@@ -1,0 +1,9 @@
+{
+  "name": "web-presentation",
+  "version": "1.0.0",
+  "description": "Single-file HTML presentation generator with no external dependencies",
+  "author": {
+    "name": "juho0719"
+  },
+  "keywords": ["presentation", "slides", "html", "offline"]
+}

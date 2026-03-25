@@ -1,0 +1,9 @@
+{
+  "name": "dev-tools-mcps",
+  "version": "1.0.0",
+  "description": "Developer tool MCP servers - GitHub, Firecrawl, Context7, Magic UI, filesystem, memory, sequential-thinking",
+  "author": {
+    "name": "juho0719"
+  },
+  "keywords": ["github", "firecrawl", "memory", "filesystem", "context7"]
+}

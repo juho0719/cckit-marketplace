@@ -1,0 +1,9 @@
+{
+  "name": "deploy-mcps",
+  "version": "1.0.0",
+  "description": "Deployment platform MCP servers - Vercel, Railway, and Supabase",
+  "author": {
+    "name": "juho0719"
+  },
+  "keywords": ["vercel", "railway", "supabase", "deployment"]
+}

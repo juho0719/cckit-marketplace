@@ -1,0 +1,9 @@
+{
+  "name": "scaffold",
+  "version": "1.0.0",
+  "description": "Project scaffolding launcher with Next.js and monorepo presets",
+  "author": {
+    "name": "juho0719"
+  },
+  "keywords": ["scaffolding", "nextjs", "monorepo", "project-setup"]
+}
