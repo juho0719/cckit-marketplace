@@ -31,6 +31,13 @@
       "tags": ["presentation", "slides", "html", "offline"]
     },
     {
+      "name": "kotlin-spring-tdd",
+      "source": "./plugins/kotlin-spring-tdd",
+      "description": "Kotlin + Spring Boot TDD - RED/GREEN/REFACTOR 체계적 접근법. Kotest + MockK 기반.",
+      "category": "skills",
+      "tags": ["kotlin", "spring-boot", "tdd", "testing", "kotest", "mockk"]
+    },
+    {
       "name": "behavioral-guidelines(CLAUDE.md)",
       "source": "./plugins/behavioral-guidelines",
       "description": "LLM coding best practices - think before coding, simplicity, surgical changes, goal-driven execution.",

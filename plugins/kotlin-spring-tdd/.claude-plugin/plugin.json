@@ -1,0 +1,9 @@
+{
+  "name": "kotlin-spring-tdd",
+  "version": "1.0.0",
+  "description": "Kotlin + Spring Boot TDD - RED/GREEN/REFACTOR with Kotest + MockK",
+  "author": {
+    "name": "juho0719"
+  },
+  "keywords": ["kotlin", "spring-boot", "tdd", "testing", "kotest", "mockk"]
+}
