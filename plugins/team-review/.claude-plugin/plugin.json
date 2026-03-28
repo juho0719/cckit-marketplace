@@ -1,0 +1,7 @@
+{
+  "name": "team-review",
+  "version": "1.0.0",
+  "description": "Codex CLI + Gemini CLI 멀티 에이전트 코드 리뷰",
+  "author": { "name": "juho0719" },
+  "keywords": ["code-review", "multi-agent", "codex", "gemini", "pn-rules"]
+}

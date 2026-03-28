@@ -71,6 +71,20 @@
       "description": "Analytics MCP servers - ClickHouse for analytics queries.",
       "category": "mcp",
       "tags": ["clickhouse", "analytics", "data"]
+    },
+    {
+      "name": "kotlin-spring-review",
+      "source": "./plugins/kotlin-spring-review",
+      "description": "Kotlin + Spring Boot PR 코드 리뷰. Pn 룰(P1~P5) 우선순위 기반 구조적 리뷰.",
+      "category": "skills",
+      "tags": ["kotlin", "spring-boot", "code-review", "pn-rules"]
+    },
+    {
+      "name": "team-review",
+      "source": "./plugins/team-review",
+      "description": "Codex CLI + Gemini CLI 멀티 에이전트 코드 리뷰. 두 AI가 병렬로 리뷰하고 리드 에이전트가 통합 판정.",
+      "category": "skills",
+      "tags": ["code-review", "multi-agent", "codex", "gemini", "pn-rules"]
     }
   ]
 }
