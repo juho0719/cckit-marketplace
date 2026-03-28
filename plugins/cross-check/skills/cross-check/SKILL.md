@@ -1,5 +1,5 @@
 ---
-name: team-review
+name: cross-check
 description: |
   Codex CLI와 Gemini CLI를 병렬로 활용한 멀티 에이전트 코드 리뷰 스킬.
   두 AI 에이전트가 독립적으로 코드를 분석한 후, 리드 에이전트가 결과를 비판적으로 평가하여
@@ -33,7 +33,7 @@ allowed-tools: Bash, Read, Glob, Grep, Agent
 | `diff_file` | 사용자가 diff 텍스트를 붙여넣거나 파일 경로를 제공 | diff 파일 경로 |
 
 사용자 입력에서 모드를 판단한다:
-- diff 텍스트를 직접 붙여넣었다면: `/tmp/team-review-diff.txt`에 저장 후 `diff_file` 모드
+- diff 텍스트를 직접 붙여넣었다면: `/tmp/cross-check-diff.txt`에 저장 후 `diff_file` 모드
 - 파일 경로를 제공했다면: 해당 경로를 그대로 사용하여 `diff_file` 모드
 - "미커밋", "uncommitted", "현재 변경사항"이면: `uncommitted` 모드
 - "main 대비", "브랜치 비교" 등이면: `branch` 모드 + 브랜치명
@@ -43,7 +43,7 @@ allowed-tools: Bash, Read, Glob, Grep, Agent
 ### diff 텍스트 저장 (diff_file 모드에서 붙여넣기인 경우)
 
 ```bash
-cat > /tmp/team-review-diff.txt << 'DIFF_EOF'
+cat > /tmp/cross-check-diff.txt << 'DIFF_EOF'
 {사용자가 붙여넣은 diff 내용}
 DIFF_EOF
 ```
@@ -192,5 +192,5 @@ CLI 실행 시 타임아웃은 300초(5분)로 설정한다.
 리뷰 완료 후 임시 파일이 생성된 경우 정리한다:
 
 ```bash
-rm -f /tmp/team-review-diff.txt
+rm -f /tmp/cross-check-diff.txt
 ```
