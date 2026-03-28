@@ -80,8 +80,8 @@
       "tags": ["kotlin", "spring-boot", "code-review", "pn-rules"]
     },
     {
-      "name": "team-review",
-      "source": "./plugins/team-review",
+      "name": "cross-check",
+      "source": "./plugins/cross-check",
       "description": "Codex CLI + Gemini CLI 멀티 에이전트 코드 리뷰. 두 AI가 병렬로 리뷰하고 리드 에이전트가 통합 판정.",
       "category": "skills",
       "tags": ["code-review", "multi-agent", "codex", "gemini", "pn-rules"]
