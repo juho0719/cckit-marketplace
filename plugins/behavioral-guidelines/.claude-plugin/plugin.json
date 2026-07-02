@@ -1,9 +1,0 @@
-{
-  "name": "behavioral-guidelines(CLAUDE.md)",
-  "version": "1.0.0",
-  "description": "LLM coding best practices - think before coding, simplicity, surgical changes, goal-driven execution",
-  "author": {
-    "name": "juho0719"
-  },
-  "keywords": ["guidelines", "best-practices", "coding-style"]
-}

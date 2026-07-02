@@ -1,0 +1,7 @@
+{
+  "name": "consensus",
+  "version": "1.0.0",
+  "description": "소크라테스식 문답으로 구현 전 모호함 제거 및 방향 합의 도출",
+  "author": { "name": "juho0719" },
+  "keywords": ["skill", "workflow", "ddd", "tdd"]
+}

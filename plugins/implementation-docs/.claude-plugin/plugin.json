@@ -1,0 +1,7 @@
+{
+  "name": "implementation-docs",
+  "version": "1.0.0",
+  "description": "구현 완료 후 아키텍처·설정·포트 인터페이스·사용법·주의사항 개발자 가이드 문서화",
+  "author": { "name": "juho0719" },
+  "keywords": ["skill", "workflow", "ddd", "tdd"]
+}

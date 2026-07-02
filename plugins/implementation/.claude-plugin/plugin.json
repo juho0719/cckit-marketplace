@@ -1,0 +1,7 @@
+{
+  "name": "implementation",
+  "version": "1.0.0",
+  "description": "TDD Red→Green→Refactor 사이클 강제 구현. Learning/Subagent/In-process 3가지 모드 지원",
+  "author": { "name": "juho0719" },
+  "keywords": ["skill", "workflow", "ddd", "tdd"]
+}

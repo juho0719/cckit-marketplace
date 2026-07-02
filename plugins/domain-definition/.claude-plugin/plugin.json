@@ -1,0 +1,7 @@
+{
+  "name": "domain-definition",
+  "version": "1.0.0",
+  "description": "DDD 방법론으로 Aggregate/Entity/Value Object/Domain Event/Repository 체계적 정의",
+  "author": { "name": "juho0719" },
+  "keywords": ["skill", "workflow", "ddd", "tdd"]
+}

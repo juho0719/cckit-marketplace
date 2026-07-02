@@ -1,0 +1,7 @@
+{
+  "name": "implementation-review",
+  "version": "1.0.0",
+  "description": "합의/도메인/계획 문서 대비 구현 적합성 점수 기반 검증. 기준 미달 항목 자동 수정",
+  "author": { "name": "juho0719" },
+  "keywords": ["skill", "workflow", "ddd", "tdd"]
+}

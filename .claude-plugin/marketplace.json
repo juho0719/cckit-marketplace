@@ -4,87 +4,45 @@
     "name": "juho0719"
   },
   "metadata": {
-    "description": "Claude Code plugin marketplace - skills, MCP servers, and behavioral guidelines",
-    "version": "1.0.0",
+    "description": "Claude Code skill marketplace - DDD + TDD 개발 워크플로우 스킬 모음",
+    "version": "2.0.0",
     "pluginRoot": "./plugins"
   },
   "plugins": [
     {
-      "name": "plan-viewer",
-      "source": "./plugins/plan-viewer",
-      "description": "Browser-based visual viewer for architecture and planning phases. Provides diagrams, flowcharts, and layout comparisons.",
+      "name": "consensus",
+      "source": "./plugins/consensus",
+      "description": "소크라테스식 문답으로 구현 전 모호함 제거 및 방향 합의 도출",
       "category": "skills",
-      "tags": ["architecture", "planning", "visual", "browser", "diagrams"]
+      "tags": ["consensus", "workflow", "planning", "ddd"]
     },
     {
-      "name": "scaffold",
-      "source": "./plugins/scaffold",
-      "description": "Project scaffolding launcher. Generates Next.js full-stack and Turborepo monorepo projects from presets.",
+      "name": "domain-definition",
+      "source": "./plugins/domain-definition",
+      "description": "DDD 방법론으로 Aggregate/Entity/Value Object/Domain Event/Repository 체계적 정의",
       "category": "skills",
-      "tags": ["scaffolding", "nextjs", "monorepo", "project-setup"]
+      "tags": ["ddd", "domain", "aggregate", "entity", "workflow"]
     },
     {
-      "name": "web-presentation",
-      "source": "./plugins/web-presentation",
-      "description": "Single-file HTML presentation generator. Creates self-contained slideshows with no external dependencies.",
+      "name": "implementation",
+      "source": "./plugins/implementation",
+      "description": "TDD Red→Green→Refactor 사이클 강제 구현. Learning/Subagent/In-process 3가지 모드 지원",
       "category": "skills",
-      "tags": ["presentation", "slides", "html", "offline"]
+      "tags": ["tdd", "implementation", "red-green-refactor", "workflow"]
     },
     {
-      "name": "kotlin-spring-tdd",
-      "source": "./plugins/kotlin-spring-tdd",
-      "description": "Kotlin + Spring Boot TDD - RED/GREEN/REFACTOR 체계적 접근법. Kotest + MockK 기반.",
+      "name": "implementation-review",
+      "source": "./plugins/implementation-review",
+      "description": "합의/도메인/계획 문서 대비 구현 적합성 점수 기반 검증. 기준 미달 항목 자동 수정",
       "category": "skills",
-      "tags": ["kotlin", "spring-boot", "tdd", "testing", "kotest", "mockk"]
+      "tags": ["review", "verification", "quality", "workflow"]
     },
     {
-      "name": "behavioral-guidelines(CLAUDE.md)",
-      "source": "./plugins/behavioral-guidelines",
-      "description": "LLM coding best practices - think before coding, simplicity, surgical changes, goal-driven execution.",
-      "category": "rules",
-      "tags": ["guidelines", "best-practices", "coding-style"]
-    },
-    {
-      "name": "cloudflare-mcps",
-      "source": "./plugins/cloudflare-mcps",
-      "description": "Cloudflare MCP servers - docs, Workers builds, Workers bindings, and observability.",
-      "category": "mcp",
-      "tags": ["cloudflare", "workers", "docs", "observability"]
-    },
-    {
-      "name": "dev-tools-mcps",
-      "source": "./plugins/dev-tools-mcps",
-      "description": "Developer tool MCP servers - GitHub, Firecrawl, Context7, Magic UI, filesystem, memory, sequential-thinking.",
-      "category": "mcp",
-      "tags": ["github", "firecrawl", "memory", "filesystem", "context7"]
-    },
-    {
-      "name": "deploy-mcps",
-      "source": "./plugins/deploy-mcps",
-      "description": "Deployment platform MCP servers - Vercel, Railway, and Supabase.",
-      "category": "mcp",
-      "tags": ["vercel", "railway", "supabase", "deployment"]
-    },
-    {
-      "name": "analytics-mcps",
-      "source": "./plugins/analytics-mcps",
-      "description": "Analytics MCP servers - ClickHouse for analytics queries.",
-      "category": "mcp",
-      "tags": ["clickhouse", "analytics", "data"]
-    },
-    {
-      "name": "kotlin-spring-review",
-      "source": "./plugins/kotlin-spring-review",
-      "description": "Kotlin + Spring Boot PR 코드 리뷰. Pn 룰(P1~P5) 우선순위 기반 구조적 리뷰.",
+      "name": "implementation-docs",
+      "source": "./plugins/implementation-docs",
+      "description": "구현 완료 후 아키텍처·설정·포트 인터페이스·사용법·주의사항 개발자 가이드 문서화",
       "category": "skills",
-      "tags": ["kotlin", "spring-boot", "code-review", "pn-rules"]
-    },
-    {
-      "name": "cross-check",
-      "source": "./plugins/cross-check",
-      "description": "Codex CLI + Gemini CLI 멀티 에이전트 코드 리뷰. 두 AI가 병렬로 리뷰하고 리드 에이전트가 통합 판정.",
-      "category": "skills",
-      "tags": ["code-review", "multi-agent", "codex", "gemini", "pn-rules"]
+      "tags": ["documentation", "guide", "architecture", "workflow"]
     }
   ]
 }
