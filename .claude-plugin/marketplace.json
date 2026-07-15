@@ -43,6 +43,13 @@
       "description": "구현 완료 후 아키텍처·설정·포트 인터페이스·사용법·주의사항 개발자 가이드 문서화",
       "category": "skills",
       "tags": ["documentation", "guide", "architecture", "workflow"]
+    },
+    {
+      "name": "writing-plan",
+      "source": "./plugins/writing-plan",
+      "description": "합의·도메인 정의를 작고 검증 가능한 구현 태스크와 TDD 계획으로 변환",
+      "category": "skills",
+      "tags": ["planning", "implementation-plan", "tdd", "workflow"]
     }
   ]
 }

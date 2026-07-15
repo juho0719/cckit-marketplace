@@ -1,0 +1,7 @@
+{
+  "name": "writing-plan",
+  "version": "1.0.0",
+  "description": "합의·도메인 정의를 작고 검증 가능한 구현 태스크와 TDD 계획으로 변환",
+  "author": { "name": "juho0719" },
+  "keywords": ["skill", "workflow", "ddd", "tdd"]
+}
